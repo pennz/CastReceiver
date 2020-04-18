@@ -23,7 +23,7 @@ Cast.
 import { CastQueue } from './queuing.js';
 
     const client = new StompJs.Client({
-      brokerURL: "ws://localhost:15674/ws",
+      brokerURL: "ws://192.168.2.89:15674/ws",
       connectHeaders: {
         login: "guest",
         passcode: "guest"
