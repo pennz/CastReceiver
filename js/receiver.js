@@ -54,6 +54,7 @@ import { CastQueue } from './queuing.js';
       console.log('Additional details: ' + frame.body);
     };
     
+    debugger;
     client.activate();
 
 function generateBinaryData() {
