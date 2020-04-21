@@ -1,3 +1,6 @@
 [submodule "samples"]
 	path = samples
 	url = https://github.com/stomp-js/samples.git
+[submodule "node-js-getting-started"]
+	path = node-js-getting-started
+	url = ./node-js-getting-started
