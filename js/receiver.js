@@ -24,7 +24,7 @@ var client
 import { CastQueue } from './queuing.js';
 
 client = new StompJs.Client({
-  brokerURL: "ws://lab.pengyuzhou.com:15674/ws", // it just takes too much time to setup the server, we can do local dev first.
+  brokerURL: "ws://127.0.0.1:15674/ws", // it just takes too much time to setup the server, we can do local dev first.
   connectHeaders: {
     login: "guest",
     passcode: "guest"
