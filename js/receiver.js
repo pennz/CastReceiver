@@ -14,14 +14,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 /*
-This sample demonstrates how to build your own Receiver for use with Google
+// This sample demonstrates how to build your own Receiver for use with Google
 Cast.
 */
 
 'use strict';
 
-var client
 import { CastQueue } from './queuing.js';
+
+var client
+var antlr4 = require('antlr4');
 
 client = new StompJs.Client({
   brokerURL: "ws://127.0.0.1:15674/ws", // it just takes too much time to setup the server, we can do local dev first.
@@ -81,11 +83,9 @@ setTimeout(() => {
     //    client.publish({destination: '/topic/general', body: 'Hello world'});
     //
     //    // There is an option to skip content length header
-    client.publish({destination: '/exchange/logs_topic/sys', body: 'Hello world', skipContentLengthHeader: true});
-    //    
+    client.publish({destination: '/exchange/logs_topic/sys', body: '{"level":"debug","time":1257894000,"message":"hello world"}', skipContentLengthHeader: true});
     //    // Additional headers
 }, 2000);
-
 
 
 const context = cast.framework.CastReceiverContext.getInstance();
