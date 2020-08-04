@@ -1,0 +1,26 @@
+{
+  "name": "browser",
+  "version": "1.0.0",
+  "description": "This is used to test AMQP in browser",
+  "main": "CPP14Lexer.js",
+  "dependencies": {
+    "antlr4": "^4.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test_runtime.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pennz/CastReceiver.git"
+  },
+  "keywords": [
+    "cast"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pennz/CastReceiver/issues"
+  },
+  "homepage": "https://github.com/pennz/CastReceiver#readme"
+}
