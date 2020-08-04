@@ -1,3 +1,7 @@
+# Info
+
+This is used to test AMQP in browser
+
 # CastReceiver
 
 This sample shows how to develop a fully Cast Design Checklist compliant receiver with additional features.
