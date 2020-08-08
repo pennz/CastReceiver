@@ -20,9 +20,9 @@ Cast.
 
 'use strict';
 
-var client
 import { CastQueue } from './queuing.js';
 
+/*var client
 client = new StompJs.Client({
   brokerURL: "ws://192.168.2.89:15674/ws",
   connectHeaders: {
@@ -85,7 +85,7 @@ setTimeout(() => {
     //    
     //    // Additional headers
 }, 2000);
-
+*/
 
 
 
